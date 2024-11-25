@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>动态网页示例</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>《“到位” 臻享：私人定制的极致生活服务 “图鉴”》</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">首页</a></li>
+      <li><a href="#about">关于我们</a></li>
+      <li><a href="#services">服务</a></li>
+      <li><a href="#contact">联系我们</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>业务服务</h2>
+    <p>疲惫生活，“到位” 呵护：专业上门按摩，解锁身心焕新密码</p>
+    <p>在忙碌日常的漩涡里打转，身体仿佛背负着无形的铅块，每一寸肌肉都在无声抗议，颈椎被久坐的压力 “锁死”，腰椎也在繁重事务中苦苦支撑，精神更是被紧绷的生活节奏消磨得倦怠不堪。当疲惫如影随形，是时候让 [到位上门按摩] 轻盈登场，为你编织一场专属的舒缓绮梦。
+        专业团队，精技护航</p>
+    <button id="changeColorButton">改变背景颜色</button>
+  </section>
+  <section id="about">
+    <h2>关于我</h2>
+    <p>我是林二千。曾是深耕健身房的健身教练，精研运动科学，擅长为不同需求者定制训练方案，助力大家塑造强健体魄、突破体能局限。如今转型成为 “到位” 技师，过往对人体肌肉骨骼的专业认知依旧 “发力”，能以精准手法，帮大家舒缓日常疲惫、释放身体压力，重归活力满格状态。</p>
+    <img src="https://sns-webpic-qc.xhscdn.com/202411251753/bd28545b2a522dc737e9c127487adc34/1040g2sg3113h7fmr6e005nhqhjjg8q20ia704u8!nc_n_webp_mw_1" alt="关于我们的图片" id="aboutImage">
+    <button id="toggleImageButton">显示/隐藏图片</button>
+  </section>
+  <section id="services">
+    <h2>我们的服务</h2>
+    <ul id="servicesList">
+      <li>套餐一：全身推拿；价格：599</li>
+      <li>套餐二：芳香精油SPA；价格：899</li>
+      <li>套餐三：深度调理SPA；价格：1599</li>
+    </ul>
+    <input type="text" id="newServiceInput" placeholder="输入新服务">
+    <button id="addServiceButton">添加新服务</button>
+  </section>
+  <section id="contact">
+    <h2>联系我们</h2>
+    <form id="contactForm">
+      <label for="name">姓名：</label>
+      <input type="text" id="name" required>
+      <label for="email">邮箱：</label>
+      <input type="email" id="email" required>
+      <label for="message">留言：</label>
+      <textarea id="message" required></textarea>
+      <input type="submit" value="提交留言">
+    </form>
+  </section>
+  <footer>
+    <p>版权所有 &copy; [林二千&pocket969] 2024</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
